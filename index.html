@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizon Inn — Himalayan Resort &amp; Spa</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+
+    <!-- BRAND -->
+    <a href="#top" class="brand">
+      <img
+        src="images/logo1.png"
+        alt="Horizon Inn Logo"
+        style="height: 80px; width: auto; object-fit: contain;"
+      >
+      <span class="brand-text">Horizon <em>Inn</em></span>
+    </a>
+
+    <!-- DESKTOP NAVIGATION -->
+    <nav class="nav-links d-none d-lg-flex" aria-label="Primary">
+
+      <a href="#arrival">
+        Arrival
+      </a>
+
+      <a href="#stay">
+        Rooms
+      </a>
+
+      <a href="#view">
+        Views
+      </a>
+
+      <a href="#gastronomy">
+        Table
+      </a>
+
+      <a href="#adventure">
+        Adventure
+      </a>
+
+      <a href="#book">
+        Book
+      </a>
+
+      <a href="album.html" class="nav-link-highlight">
+        Album
+      </a>
+
+    </nav>
+
+    <!-- CHECK PACKAGES -->
+    <button
+      class="btn btn-brass d-none d-lg-inline-flex"
+      data-bs-toggle="modal"
+      data-bs-target="#bookModal"
+    >
+      Check Packages
+    </button>
+
+    <!-- MOBILE MENU BUTTON -->
+    <button
+      class="nav-toggle d-lg-none"
+      id="navToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE NAVIGATION -->
+  <div class="mobile-panel" id="mobilePanel">
+
+    <a href="#arrival">Arrival
+    </a>
+
+    <a href="#stay">Rooms
+    </a>
+
+    <a href="#view">Views
+    </a>
+
+    <a href="#gastronomy">Table
+    </a>
+
+    <a href="#adventure">Adventure
+    </a>
+
+    <a href="#book">Book
+    </a>
+
+    <a href="album.html">Album
+    </a>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="images/main.jpg" alt="Himalayan peaks at dawn over Horizon Inn" loading="eager">
+    <div class="hero-scrim"></div>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow" data-reveal>Est. 2026 · Manungkot Hills, Tanahun, Nepal</p>
+    <h1 data-reveal>A house<br><span class="italic">at the edge</span><br>of the sky.</h1>
+    <p class="hero-sub" data-reveal>Fourteen rooms overlooking the quiet hills of Manungkot, with the Himalayas on the horizon. Horizon Inn is a peaceful retreat shaped by nature, warm hospitality, and unhurried moments — where mornings begin with mountain air and evenings settle into the stillness of the hills.</p>
+    <a href="#arrival" class="scroll-cue" data-reveal>
+      <span>Begin the descent</span>
+      <svg width="14" height="22" viewBox="0 0 14 22"><path d="M7 1v18M1 13l6 6 6-6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <div class="hero-count">
+    <span class="count-num" data-count="1">0</span><span class="count-suffix">minute</span>
+    <span class="count-label"> from a cloudy view</span>
+  </div>
+</section>
+
+<!-- I. ARRIVAL / ABOUT -->
+<style>
+  .arrival-img-wrapper .img-a, .arrival-img-wrapper .img-b {
+    border-radius: 20px;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .arrival-img-wrapper .img-b {
+    border: 8px solid var(--ivory);
+  }
+  .arrival-img-wrapper:hover .img-a {
+    filter: brightness(1.1) saturate(1.15) sepia(0.05);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  }
+  .arrival-img-wrapper:hover .img-b {
+    filter: brightness(1.15) saturate(1.1);
+    transform: translateY(8px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  }
+</style>
+<section class="section chapter" id="arrival">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- TEXT -->
+      <div class="col-lg-5" data-reveal>
+        
+        <p class="eyebrow" style="font-weight: 800; font-size: 1rem; color: var(--brass); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">ARRIVAL</p>
+        <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">A quiet place<br><span style="color: var(--pine-deep); font-style: italic;">above the valley.</span></h2>
+        
+        <div style="border-left: 3px solid var(--brass); padding-left: 1.5rem; margin-bottom: 2rem;">
+          <p class="lead-text" style="font-size: 1.25rem; color: #444; line-height: 1.6;">
+            Set among the hills of Manungkot, Horizon Inn is a small, thoughtfully
+            designed retreat made for slowing down, taking in the landscape, and
+            enjoying the simple rhythm of mountain life.
+          </p>
+        </div>
+        
+        <p style="font-size: 1.1rem; color: #666; line-height: 1.8; margin-bottom: 2.5rem;">
+          Come for the views, stay for the calm. Our fourteen rooms, warm
+          interiors, and welcoming spaces give you a comfortable base from
+          which to experience the hills, villages, trails, and landscapes
+          around Manungkot.
+        </p>
+
+        <div class="trait-grid two-col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> 14 thoughtfully designed rooms</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Panoramic mountain surroundings</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Warm local hospitality</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Fresh, locally inspired dining</div>
+        </div>
+        <div class="arrival-note">
+          <span>Horizon Inn</span>
+          <small>Manungkot · Nepal · Est. 2026</small>
+        </div>
+      </div>
+
+      <!-- IMAGES (ON THE RIGHT SIDE) -->
+      <div class="col-lg-7" data-reveal>
+        <div class="stack-frame arrival-img-wrapper">
+          <img class="img-a" src="images/hotalview1.jpeg" alt="Horizon Inn overlooking the hills of Manungkot">
+          <img class="img-b" src="images/hotalview2.jpeg" alt="Interior and surroundings of Horizon Inn">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AWARDS / RECOGNITION ACCORDION -->
+<section class="section accolades">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" data-reveal>
+        <p class="eyebrow eyebrow-light">Recognition</p>
+        <h2 class="text-ivory">Quietly noticed,<br>for eighteen years.</h2>
+        <p class="text-ivory-70">We've never chased a rating. These found us anyway.</p>
+      </div>
+      <div class="col-lg-8" data-reveal>
+        <div class="accordion accolade-accordion" id="accoladeAccordion">
+
+          <div class="accolade-item">
+            <button class="accolade-toggle" data-bs-toggle="collapse" data-bs-target="#acc1">
+              <span class="acc-num">01</span>
+              <span class="acc-title">Travellers' Choice — Nepal Boutique Stays</span>
+              <span class="acc-plus">+</span>
+            </button>
+            <div id="acc1" class="collapse accolade-body" data-bs-parent="#accoladeAccordion">
+              <p>Named among the top small hotels in Nepal three years running, based on guest reviews rather than paid placement — the only metric we've ever cared about.</p>
+            </div>
+          </div>
+
+          <div class="accolade-item">
+            <button class="accolade-toggle" data-bs-toggle="collapse" data-bs-target="#acc2">
+              <span class="acc-num">02</span>
+              <span class="acc-title">Sustainable Tourism Mark, Gandaki Province</span>
+              <span class="acc-plus">+</span>
+            </button>
+            <div id="acc2" class="collapse accolade-body" data-bs-parent="#accoladeAccordion">
+              <p>Awarded for solar water heating, greywater reuse in the terraced gardens, and a kitchen that sources over 70% of produce within an eight-kilometre radius.</p>
+            </div>
+          </div>
+
+          <div class="accolade-item">
+            <button class="accolade-toggle" data-bs-toggle="collapse" data-bs-target="#acc3">
+              <span class="acc-num">03</span>
+              <span class="acc-title">Featured Stay — Himalayan Trekking Guild</span>
+              <span class="acc-plus">+</span>
+            </button>
+            <div id="acc3" class="collapse accolade-body" data-bs-parent="#accoladeAccordion">
+              <p>Recommended as a base camp for the Mardi Himal and Poon Hill routes, thanks to our in-house guiding team and early-departure breakfasts.</p>
+            </div>
+          </div>
+
+          <div class="accolade-item">
+            <button class="accolade-toggle" data-bs-toggle="collapse" data-bs-target="#acc4">
+              <span class="acc-num">04</span>
+              <span class="acc-title">Family Business Award, Pokhara Chamber</span>
+              <span class="acc-plus">+</span>
+            </button>
+            <div id="acc4" class="collapse accolade-body" data-bs-parent="#accoladeAccordion">
+              <p>Recognised for three generations of continuous family ownership and for training over forty local staff who've gone on to lead their own ventures.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- II. STAY -->
+<style>
+  .stay-gallery {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 1.5rem;
+  }
+  .stay-gallery img {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .stay-gallery img:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    filter: brightness(1.05);
+  }
+  .room-list li {
+    transition: padding-left 0.3s ease;
+  }
+  .room-list li:hover {
+    padding-left: 10px;
+    color: var(--brass);
+    border-bottom-color: var(--brass-light);
+  }
+</style>
+<section class="section chapter alt" id="stay">
+  <div class="container">
+    <div class="row align-items-center g-5 flex-lg-row-reverse">
+      
+      <!-- TEXT -->
+      <div class="col-lg-5" data-reveal>
+        <p class="eyebrow" style="font-weight: 800; font-size: 1rem; color: var(--brass); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">ACCOMMODATION</p>
+        <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">Rooms made<br><span style="color: var(--pine-deep); font-style: italic;">for slowing down.</span></h2>
+        
+        <div style="border-left: 3px solid var(--brass); padding-left: 1.5rem; margin-bottom: 2rem;">
+          <p class="lead-text" style="font-size: 1.25rem; color: #444; line-height: 1.6;">
+            Thoughtfully designed for quiet mornings and restful nights, each room
+            at Horizon Inn brings together warm interiors, comfortable details,
+            and the peaceful character of Manungkot.
+          </p>
+        </div>
+        
+        <p style="font-size: 1.1rem; color: #666; line-height: 1.8; margin-bottom: 2.5rem;">
+          Wake up to fresh mountain air, spend the afternoon by the window,
+          and let the evening settle over the hills. Whether you're travelling
+          as a couple, with family, or simply looking for a quiet escape,
+          there is a room waiting for you.
+        </p>
+
+        <ul class="room-list" style="list-style: none; padding: 0; margin-bottom: 2rem;">
+          <li style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #ddd; font-weight: 500;">
+            <span><span style="color: var(--brass); margin-right: 8px;">✦</span> Comfortable Rooms</span>
+            <em style="color: var(--brass);">14</em>
+          </li>
+          <li style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #ddd; font-weight: 500;">
+            <span><span style="color: var(--brass); margin-right: 8px;">✦</span> Mountain & Valley Views</span>
+            <em style="color: var(--brass);">All</em>
+          </li>
+          <li style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #ddd; font-weight: 500;">
+            <span><span style="color: var(--brass); margin-right: 8px;">✦</span> Warm & Thoughtful Interiors</span>
+            <em style="color: var(--brass);">Included</em>
+          </li>
+        </ul>
+
+        <a href="#book" class="link-underline">Explore your stay →</a>
+      </div>
+
+      <!-- IMAGES -->
+      <div class="col-lg-7" data-reveal>
+        <div class="views-bento">
+          <div class="bento-item item-1">
+            <img src="images/rooms1.jpeg" alt="Guest room at Horizon Inn in Manungkot">
+          </div>
+          <div class="bento-item item-2">
+            <img src="images/room2.jpeg" alt="Mountain view from Horizon Inn room">
+          </div>
+          <div class="bento-item item-3">
+            <img src="images/room3.jpeg" alt="Comfortable guest room">
+          </div>
+        </div>
+        <div class="views-bento-small">
+          <div class="bento-item">
+            <img src="images/room4.jpeg" alt="Room details">
+          </div>
+          <div class="bento-item">
+            <img src="images/room5.jpeg" alt="Cozy stay">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- III. THE VIEW -->
+<style>
+  .view-img-wrapper .img-a, .view-img-wrapper .img-b {
+    border-radius: 20px;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .view-img-wrapper .img-b {
+    border: 8px solid var(--ivory);
+  }
+  .view-img-wrapper:hover .img-a {
+    filter: brightness(1.1) saturate(1.15) sepia(0.05);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  }
+  .view-img-wrapper:hover .img-b {
+    filter: brightness(1.15) saturate(1.1);
+    transform: translateY(8px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  }
+</style>
+<section class="section chapter" id="view">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-5" data-reveal>
+        
+        <p class="eyebrow" style="font-weight: 800; font-size: 1rem; color: var(--brass); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">VIEWS</p>
+        <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">The mountains<br><span style="color: var(--pine-deep); font-style: italic;">are part of the stay.</span></h2>
+        
+        <div style="border-left: 3px solid var(--brass); padding-left: 1.5rem; margin-bottom: 2rem;">
+          <p class="lead-text" style="font-size: 1.25rem; color: #444; line-height: 1.6;">
+            At Horizon Inn, the landscape is never far away. Step outside and
+            discover wide-open views of the hills, valleys, and changing skies
+            that make Manungkot a place worth slowing down for.
+          </p>
+        </div>
+        
+        <p style="font-size: 1.1rem; color: #666; line-height: 1.8; margin-bottom: 2.5rem;">
+          Mornings arrive softly over the hills, afternoons open into clear
+          mountain views, and evenings bring a quiet horizon as the light
+          fades. Take your time, find a comfortable corner, and simply enjoy
+          the view.
+        </p>
+
+        <div class="trait-grid two-col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Panoramic hillside views</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Sunrise & sunset moments</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Peaceful outdoor spaces</div>
+          <div class="trait" style="font-weight: 600; font-size: 1.05rem; color: var(--pine-deep);"><span style="color: var(--brass); margin-right: 8px; font-size: 1.2rem;">✦</span> Nature at your doorstep</div>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-reveal>
+        <style>
+          .views-bento {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 180px);
+            gap: 15px;
+          }
+          .views-bento .bento-item {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s ease;
+          }
+          .views-bento .bento-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+          }
+          .views-bento .bento-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            z-index: 2;
+          }
+          .views-bento .bento-item:hover img {
+            transform: scale(1.08);
+          }
+          .views-bento .item-1 { grid-column: span 2; grid-row: span 2; }
+          .views-bento .item-2 { grid-column: span 1; grid-row: span 1; }
+          .views-bento .item-3 { grid-column: span 1; grid-row: span 1; }
+
+          .views-bento-small {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+          }
+          .views-bento-small .bento-item {
+            aspect-ratio: 1 / 1;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease;
+          }
+          .views-bento-small .bento-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+          }
+          .views-bento-small .bento-item:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+          }
+          .views-bento-small .bento-item:hover img {
+            transform: scale(1.05);
+          }
+          
+          @media (max-width: 768px) {
+            .views-bento {
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: auto 150px;
+            }
+            .views-bento .item-1 { grid-column: span 2; grid-row: span 1; height: 250px; }
+            .views-bento .item-2, .views-bento .item-3 { grid-column: span 1; grid-row: span 1; }
+            .views-bento-small {
+              grid-template-columns: 1fr;
+            }
+            .views-bento-small .bento-item { height: auto; aspect-ratio: 1 / 1; }
+          }
+        </style>
+
+        <div class="views-bento">
+          <div class="bento-item item-1">
+            <img src="images/view1.jpg" alt="Mountain and valley view">
+          </div>
+          <div class="bento-item item-2">
+            <img src="images/view2.jpg" alt="View from Horizon Inn">
+          </div>
+          <div class="bento-item item-3">
+            <img src="images/view3.jpg" alt="Beautiful landscape">
+          </div>
+        </div>
+        <div class="views-bento-small">
+          <div class="bento-item">
+            <img src="images/view4.jpg" alt="Scenic view 4">
+          </div>
+          <div class="bento-item">
+            <img src="images/view6.jpg" alt="Scenic view 6">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- IV. GASTRONOMY -->
+<section class="section chapter alt" id="gastronomy">
+  <div class="container">
+    <div class="row align-items-center g-5 flex-lg-row-reverse">
+      <div class="col-lg-5" data-reveal>
+        
+        <p class="eyebrow" style="font-weight: 800; font-size: 1rem; color: var(--brass); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">DINING</p>
+        <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">Dinner comes<br><span style="color: var(--pine-deep); font-style: italic;">from the terrace below.</span></h2>
+        
+        <div style="border-left: 3px solid var(--brass); padding-left: 1.5rem; margin-bottom: 2rem;">
+          <p class="lead-text" style="font-size: 1.25rem; color: #444; line-height: 1.6;">
+            Our kitchen runs on what's in season on our own terraces — millet, buckwheat, mountain greens — cooked over wood in the old Newari style, alongside a short list of regional wines.
+          </p>
+        </div>
+        <div class="row g-3 mt-2">
+          <div class="col-6"><div class="mini-card"><h6>The Hearth</h6><p>Wood-fired dining room, 28 covers</p></div></div>
+          <div class="col-6"><div class="mini-card"><h6>Terrace Bar</h6><p>Sundowners over the valley</p></div></div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-reveal>
+        <div class="views-bento">
+          <div class="bento-item item-1">
+            <img src="images/table1.jpeg" alt="Wood-fired dining room">
+          </div>
+          <div class="bento-item item-2">
+            <img src="images/table2.png" alt="Terrace bar at sunset">
+          </div>
+          <div class="bento-item item-3">
+            <img src="images/table3.avif" alt="Dining setting">
+          </div>
+        </div>
+        <div class="views-bento-small">
+          <div class="bento-item">
+            <img src="images/table4(barbi).png" alt="Barbecue setting">
+          </div>
+          <div class="bento-item">
+            <img src="images/table5.jpeg" alt="Special dining experience">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- V. AROUND MANUNGKOT — places & experiences -->
+<section class="section services" id="adventure">
+  <div class="container">
+
+    <div class="row mb-5">
+      <div class="col-lg-6" data-reveal>
+
+        <p class="eyebrow"
+          style="font-weight: 800; font-size: 1rem; color: var(--brass);
+          letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">
+          AROUND MANUNGKOT
+        </p>
+
+        <h2 style="font-size: 3.5rem; line-height: 1.1;
+          margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">
+          Places worth<br>
+          <span style="color: var(--pine-deep); font-style: italic;">
+            taking the road for.
+          </span>
+        </h2>
+
+        <p class="lead-text">
+          Stay in Manungkot and take your time exploring the hills,
+          villages, viewpoints and towns that surround us.
+        </p>
+
+      </div>
+    </div>
+
+
+    <div class="row g-4">
+
+      <!-- 01. MANUNGKOT VILLAGE -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+  <div class="service-card">
+
+    <div class="service-img">
+      <img
+        src="images/view1.jpg"
+        alt="Clouds drifting through the hills of Manungkot"
+      >
+    </div>
+
+    <h5>Cloud Views</h5>
+
+    <p>
+      Watch the clouds drift through the hills of Manungkot, filling the
+      valleys with mist and changing the landscape from one moment to the
+      next.
+    </p>
+
+  </div>
+</div>
+
+
+      <!-- 02. BANDIPUR -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+        <div class="service-card">
+
+          <div class="service-img">
+            <img
+              src="images/bandipur.jpg"
+              alt="Bandipur Nepal"
+            >
+          </div>
+
+          <h5>Bandipur</h5>
+
+          <p>
+            Wander through the charming hilltop town of Bandipur, known
+            for its traditional Newari architecture, stone streets,
+            mountain views and relaxed atmosphere.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- 03. POKHARA -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+        <div class="service-card">
+
+          <div class="service-img">
+            <img
+              src="images/pokhara.jpeg"
+              alt="Pokhara Nepal"
+            >
+          </div>
+
+          <h5>Pokhara</h5>
+
+          <p>
+            Spend a day discovering Pokhara — from the shores of Phewa
+            Lake and lakeside cafés to mountain views, local markets
+            and the city's many outdoor experiences.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- 04. HILLSIDE WALK -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+        <div class="service-card">
+
+          <div class="service-img">
+            <img
+              src="images/hillside walk.jpeg"
+              alt="Hillside walking trail around Manungkot"
+            >
+          </div>
+
+          <h5>Hillside Walks</h5>
+
+          <p>
+            Follow quiet paths through the surrounding hills and
+            countryside, passing terraces, forests and small settlements
+            along the way.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- 05. SUNRISE & SUNSET -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+        <div class="service-card">
+
+          <div class="service-img">
+            <img
+              src="images/sunrise.jpeg"
+              alt="Sunrise over the hills from Manungkot"
+            >
+          </div>
+
+          <h5>Sunrise &amp; Sunset</h5>
+
+          <p>
+            Start the morning with changing light across the hills and
+            return in the evening as the landscape turns golden beneath
+            the open Himalayan sky.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- 06. LOCAL EXPERIENCE -->
+      <div class="col-md-6 col-lg-4" data-reveal>
+        <div class="service-card">
+
+          <div class="service-img">
+            <img
+              src="images/local-life.jpg"
+              alt="Local village life around Manungkot"
+            >
+          </div>
+
+          <h5>Local Life</h5>
+
+          <p>
+            Meet the people, discover local traditions and experience
+            the slower side of life in the villages and hills around
+            Manungkot.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<section class="stats-strip">
+  <div class="container">
+    <div class="row text-center g-4">
+
+      <div class="col-6 col-lg-3">
+        <span class="stat-num" data-count="14">0</span>
+        <span class="stat-label">Guest Rooms</span>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <span class="stat-num" data-count="2026">0</span>
+        <span class="stat-label">Established</span>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <span class="stat-num">Manungkot</span>
+        <span class="stat-label">Gandaki, Nepal</span>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <span class="stat-num">24/7</span>
+        <span class="stat-label">Warm Hospitality</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VI. BOOK -->
+<section class="section booking" id="book">
+  <div class="booking-bg">
+    <img src="images/main.jpg" alt="Horizon Inn at dusk">
+  </div>
+  <div class="container position-relative">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-7" data-reveal>
+        
+        <p class="eyebrow eyebrow-light">Book</p>
+        <h2 class="text-ivory">Come down<br>from wherever you are.</h2>
+        <p class="text-ivory-70 mb-4">Fourteen rooms mean we're often full in October and April. Write to us, or check live dates below.</p>
+        <button class="btn btn-brass btn-lg" data-bs-toggle="modal" data-bs-target="#bookModal">Check Packages</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS SECTION -->
+<section class="section reviews" id="reviews" style="background-color: #fdfbf7; padding: 80px 0;">
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-12" data-reveal>
+        <p class="eyebrow" style="color: #a88b5d; font-weight: 600; letter-spacing: 1px;">What Our Guests Say</p>
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem; font-family: 'Fraunces', serif;">Real experiences from guests who stayed with us</h2>
+        <div class="d-flex justify-content-center align-items-center gap-2 mt-3">
+          <span style="font-size: 1.5rem; color: #fbbc04; letter-spacing: 2px;">★★★★★</span>
+          <span style="font-weight: 700; font-size: 1.2rem; color: #333;">4.9</span>
+          <span style="color: #6c757d; font-size: 0.9rem;">(57 Google Reviews)</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="position-relative">
+      <div class="review-carousel-container" style="overflow: hidden; padding: 10px 0;">
+        <div class="review-carousel d-flex gap-4" style="overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; padding-bottom: 20px; scrollbar-width: none; -ms-overflow-style: none;">
+          
+          <!-- Review 1 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"Absolutely mesmerizing sunrise above the clouds. The hospitality was incredibly warm and the rooms were very comfortable despite the remote location."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">S</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Sita Gurung</h6><span style="font-size: 0.85rem; color: #888;">2 weeks ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"A piece of heaven on earth! Waking up to the sea of clouds right outside our window was an unforgettable experience. Highly recommended."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">R</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Rajesh Shrestha</h6><span style="font-size: 0.85rem; color: #888;">1 month ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"Great traditional food, very clean rooms, and the best view you can ask for in Nepal. The staff went out of their way to make us feel at home."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">A</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Anita Thapa</h6><span style="font-size: 0.85rem; color: #888;">3 months ago</span></div>
+            </div>
+          </div>
+          
+          <!-- Review 4 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"One of the best camping and hotel experiences in Tanahun. The morning view is surreal. You literally feel like you are floating."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">P</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Prakash K.</h6><span style="font-size: 0.85rem; color: #888;">4 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 5 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"The road up was a bit bumpy, but totally worth it. The staff is polite, and having a hot cup of tea above the clouds is magical."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">S</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Sunita Maharjan</h6><span style="font-size: 0.85rem; color: #888;">5 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 6 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★☆</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"Beautiful view! The rooms are cozy and warm. Only giving 4 stars because it gets very crowded during the weekend mornings."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">D</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Dipendra Rai</h6><span style="font-size: 0.85rem; color: #888;">6 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 7 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"My family loved our stay. The owner was super helpful and even arranged a campfire for us at night. The view is unbeatable."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">M</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Mina Tamang</h6><span style="font-size: 0.85rem; color: #888;">7 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 8 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"Peaceful, quiet, and stunning. If you want to escape the city noise and just breathe fresh air, this is the place to be."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">N</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Nabin P.</h6><span style="font-size: 0.85rem; color: #888;">8 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 9 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"The best part was the local food served with so much love. And of course, the morning view. Highly recommended for couples."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #a88b5d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">K</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Kiran Sharma</h6><span style="font-size: 0.85rem; color: #888;">9 months ago</span></div>
+            </div>
+          </div>
+
+          <!-- Review 10 -->
+          <div class="review-card flex-shrink-0" style="width: calc(33.333% - 1rem); scroll-snap-align: start; background: white; border-radius: 20px; padding: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.02);">
+            <div class="d-flex justify-content-between align-items-start mb-4">
+              <div class="stars" style="color: #fbbc04; font-size: 1.1rem; letter-spacing: 1px;">★★★★★</div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="22" alt="Google">
+            </div>
+            <p style="font-size: 1rem; color: #444; line-height: 1.6; min-height: 100px;">"A must-visit spot in Nepal. Don't miss the sunrise. The hotel facilities are great considering the high altitude and remoteness."</p>
+            <div class="d-flex align-items-center mt-4 pt-3" style="border-top: 1px solid #eee;">
+              <div style="width: 45px; height: 45px; border-radius: 50%; background: #6c757d; color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.1rem; margin-right: 15px;">B</div>
+              <div><h6 style="margin: 0; font-size: 1rem; font-weight: 700; color: #222;">Bishal Gurung</h6><span style="font-size: 0.85rem; color: #888;">10 months ago</span></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Controls -->
+      <button class="carousel-control-prev" id="prevReview" aria-label="Previous Reviews" style="width: 48px; height: 48px; background: white; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: absolute; top: 50%; left: -24px; transform: translateY(-50%); border: 1px solid #eee; opacity: 1; z-index: 10; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="carousel-control-next" id="nextReview" aria-label="Next Reviews" style="width: 48px; height: 48px; background: white; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: absolute; top: 50%; right: -24px; transform: translateY(-50%); border: 1px solid #eee; opacity: 1; z-index: 10; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+    
+    <div class="text-center mt-5">
+      <a href="https://maps.google.com/" target="_blank" class="btn btn-outline-dark rounded-pill px-5 py-3 fw-medium" style="border-width: 2px;">View all reviews on Google</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .review-carousel::-webkit-scrollbar { height: 8px; }
+  .review-carousel::-webkit-scrollbar-track { background: transparent; }
+  .review-carousel::-webkit-scrollbar-thumb { background-color: #e0e0e0; border-radius: 10px; }
+  #prevReview:hover, #nextReview:hover { background: #f8f9fa; transform: translateY(-50%) scale(1.05); }
+  @media (max-width: 991px) {
+    .review-card { width: calc(50% - 0.75rem) !important; }
+  }
+  @media (max-width: 767px) {
+    .review-card { width: 100% !important; }
+    #prevReview, #nextReview { display: none !important; }
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.querySelector('.review-carousel');
+    const prevBtn = document.getElementById('prevReview');
+    const nextBtn = document.getElementById('nextReview');
+    
+    if(carousel && prevBtn && nextBtn) {
+      prevBtn.addEventListener('click', () => {
+        const cardWidth = carousel.querySelector('.review-card').offsetWidth;
+        carousel.scrollBy({ left: -(cardWidth + 16), behavior: 'smooth' });
+      });
+      nextBtn.addEventListener('click', () => {
+        const cardWidth = carousel.querySelector('.review-card').offsetWidth;
+        carousel.scrollBy({ left: (cardWidth + 16), behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+<!-- CONTACT SECTION -->
+<section class="section contact" id="contact" style="padding: 80px 0;">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7" data-reveal>
+        <div class="map-canvas" style="border-radius: 24px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.15); height: 100%; min-height: 550px;">
+          <iframe src="https://maps.google.com/maps?q=Manungkot,%20Nepal&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; min-height: 550px; border-radius: 24px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="col-lg-5" data-reveal>
+        <p class="eyebrow" style="font-weight: 800; font-size: 1rem; color: var(--brass); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 1rem;">SAY HELLO</p>
+        <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">Get in touch, send us<br><span style="color: var(--pine-deep); font-style: italic;">an e-mail or call us</span></h2>
+        
+        <div style="border-left: 3px solid var(--brass); padding-left: 1.5rem; margin-bottom: 2.5rem;">
+          <p class="lead-text" style="font-size: 1.25rem; color: #6c757d; line-height: 1.6;">
+            Have questions about your stay? Want to coordinate your arrival or book a guided trek? We're here to help you organize everything for your perfect Himalayan getaway.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6">
+            <p style="color: #a88b5d; font-size: 0.9rem; margin-bottom: 0.25rem;">Call:</p>
+            <p style="font-weight: 600; font-size: 1.1rem; color: #333;">+977 61 000 000</p>
+          </div>
+          <div class="col-sm-6">
+            <p style="color: #a88b5d; font-size: 0.9rem; margin-bottom: 0.25rem;">Email:</p>
+            <p style="font-weight: 600; font-size: 1.1rem; color: #333;">stay@horizoninn.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+  <div class="container">
+
+```
+<div class="row g-5">
+
+  <!-- BRAND / ABOUT -->
+  <div class="col-lg-4">
+
+    <a href="#top" class="brand footer-brand">
+
+      <img
+        src="images/logo1.png"
+        alt="Horizon Inn Logo"
+        style="height: 80px; width: auto; object-fit: contain;"
+      >
+
+      <span class="brand-text">
+        Horizon <em>Inn</em>
+      </span>
+
+    </a>
+
+    <p class="text-ivory-70 mt-3">
+      A peaceful hillside hotel in Manungkot, Nepal, created for
+      comfortable stays, warm hospitality, and beautiful mountain views.
+    </p>
+
+  </div>
+
+
+  <!-- EXPLORE -->
+  <div class="col-6 col-lg-2">
+
+    <h6>Explore</h6>
+
+    <a href="#arrival">Arrival</a>
+
+    <a href="#stay">Stay</a>
+
+    <a href="#view">Views</a>
+
+    <a href="#gastronomy">Table</a>
+
+    <a href="#adventure">Adventure</a>
+
+  </div>
+
+
+  <!-- HOUSE -->
+  <div class="col-6 col-lg-2">
+
+    <h6>Hotel</h6>
+
+    <a href="#gallery">Gallery</a>
+
+    <a href="#book">Book a Stay</a>
+
+    <a href="#contact">Contact</a>
+
+    <a href="#reviews">Guest Reviews</a>
+
+  </div>
+
+
+  <!-- CONTACT -->
+  <div class="col-lg-4">
+
+    <h6>Reach us</h6>
+
+    <p class="text-ivory-70">
+      Manungkot, Nepal<br>
+      Gandaki Province, Nepal
+    </p>
+
+    <div class="footer-contacts mt-3">
+      <a href="tel:+9779713545254" class="btn btn-link" style="color: var(--brass); font-size: 1.1rem; font-weight: 600; text-decoration: none; padding: 0; display: inline-flex; align-items: center; margin-bottom: 0.8rem; transition: color 0.3s ease;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Call +977 9713545254
+      </a>
+      <br>
+      <a href="tel:+9779700000000" class="btn btn-link" style="color: var(--brass); font-size: 1.1rem; font-weight: 600; text-decoration: none; padding: 0; display: inline-flex; align-items: center; transition: color 0.3s ease;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Call +977 9700000000
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER BOTTOM -->
+<div class="footer-bottom">
+
+  <span>
+    © 2026 Horizon Inn. All rights reserved.
+  </span>
+
+  <span class="footer-credit">
+    Manungkot · Nepal
+  </span>
+
+</div>
+```
+
+  </div>
+</footer>
+
+
+<!-- BOOKING MODAL -->
+<div class="modal fade" id="bookModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border-radius: 24px; overflow: hidden; border: none; background: #fdfbf7;">
+      <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close" style="z-index: 10;">&times;</button>
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-12 p-5 pb-4 text-center">
+            <span class="eyebrow" style="color: var(--brass); letter-spacing: 2px;">Find your stay</span>
+            <h3 style="font-family: 'Fraunces', serif; font-size: 2.5rem; margin-top: 0.5rem; color: var(--pine-deep);">Our Packages</h3>
+            <p style="color: #666; max-width: 400px; margin: 0 auto;">Select from our thoughtfully curated stays, each offering a distinct experience with meals included.</p>
+          </div>
+        </div>
+        
+        <div class="row g-4 px-5 pb-5">
+          <!-- TENT PACKAGE -->
+          <div class="col-md-6">
+            <div class="package-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.06); height: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border: 1px solid rgba(0,0,0,0.05); position: relative;">
+              <div class="package-img" style="height: 200px; overflow: hidden;">
+                <img src="images/camping.webp" alt="Tent stay" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+              </div>
+              <div class="package-content" style="padding: 2rem;">
+                <h4 style="font-family: 'Fraunces', serif; font-size: 1.5rem; margin-bottom: 1rem; color: #222;">Tent Stay</h4>
+                <ul style="list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> 1 Day / 1 Night
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Breakfast Included
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Dinner Included
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Outdoor Experience
+                  </li>
+                  <li style="display: flex; align-items: center; font-weight: 700; font-size: 1.1rem; color: var(--pine-deep);">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Rs.1300 per person
+                  </li>
+                </ul>
+                <button class="btn btn-outline-brass w-100" style="border: 1px solid var(--brass); color: var(--brass); border-radius: 50px; padding: 12px; font-weight: 600; background: transparent; transition: all 0.3s ease;">Book Tent Package</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROOM PACKAGE -->
+          <div class="col-md-6">
+            <div class="package-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.06); height: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border: 1px solid rgba(0,0,0,0.05); position: relative;">
+              <div class="package-img" style="height: 200px; overflow: hidden;">
+                <img src="images/rooms1.jpeg" alt="Room stay" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+              </div>
+              <div class="package-content" style="padding: 2rem;">
+                <h4 style="font-family: 'Fraunces', serif; font-size: 1.5rem; margin-bottom: 1rem; color: #222;">Room Stay</h4>
+                <ul style="list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> 1 Day / 1 Night
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Breakfast Included
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Dinner Included
+                  </li>
+                  <li style="display: flex; align-items: center; margin-bottom: 0.8rem; color: #555;">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span> Comfortable Interior
+                  </li>
+                  <li style="display: flex; align-items: center; font-weight: 700; font-size: 1.1rem; color: var(--pine-deep);">
+                    <span style="color: var(--brass); margin-right: 10px; font-size: 1.2rem;">✦</span>Rs.2000 per person
+                  </li>
+                </ul>
+                <button class="btn btn-brass w-100" style="border-radius: 50px; padding: 12px; font-weight: 600;">Book Room Package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pb-5">
+          <p style="color: #666; margin-bottom: 0.5rem; font-size: 0.95rem;">Prefer to book directly?</p>
+          <a href="tel:+9779713545254" class="btn btn-link" style="color: var(--pine-deep); font-size: 1.2rem; font-weight: 600; text-decoration: none; padding: 0; display: inline-flex; align-items: center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call +977 9713545254
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .package-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 45px rgba(0,0,0,0.12) !important;
+  }
+  .package-card:hover .package-img img {
+    transform: scale(1.05);
+  }
+  .btn-outline-brass:hover {
+    background: var(--brass) !important;
+    color: white !important;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

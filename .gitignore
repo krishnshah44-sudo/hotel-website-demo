@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Node.js (if you use npm later)
+node_modules/
+dist/
+build/
